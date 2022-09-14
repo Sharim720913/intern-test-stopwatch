@@ -9,10 +9,7 @@ const Stopwatch = () => {
 
   const onStart = () => {
     setPause(true);
-    setHour(0);
-    setMin(0);
-    setSecond(0);
-    setMilsec(0);
+    
   };
   const onPause = () => {
     setPause(false);
